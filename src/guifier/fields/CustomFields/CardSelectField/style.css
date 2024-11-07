@@ -30,8 +30,8 @@
 }
 
 .guifierSelectedCard {
-    border-color: var(--primary-color) !important;
-    outline: 3px solid var(--second-color);
+    border-color: var(--blue-color) !important;
+    outline: 3px solid var(--primary-color);
 }
 
 .cardTextElement {

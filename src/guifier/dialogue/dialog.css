@@ -67,8 +67,8 @@
 
 .guifierDialogCancelButton {
     border: var(--primary-border);
-    background-color: var(--fourth-color);
-    color: var(--third-color);
+    background-color: var(--primary-color-accent);
+    color: var(--secondary-color);
 }
 
 .guifierDialogCancelButton:hover {
@@ -76,7 +76,7 @@
 }
 
 .guifierDialogConfirmButton {
-    background-color: var(--primary-color);
+    background-color: var(--blue-color);
     color: white;
 }
 

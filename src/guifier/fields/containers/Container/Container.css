@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     font-size: larger;
-    color: var(--third-color);
+    color: var(--secondary-color);
     padding: var(--header-horizontal-padding) var(--primary-grid-gap);
     padding-right: 15px;
 }
@@ -80,7 +80,7 @@
 
 .guifierEmptyTitle {
     margin: 0;
-    color: var(--third-color);
+    color: var(--secondary-color);
     font-size: large;
 }
 
@@ -97,7 +97,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: var(--primary-color);
+    background-color: var(--blue-color);
     padding: 5px 10px;
     padding-left: 19px;
     border-radius: var(--primary-border-radius);
@@ -111,5 +111,5 @@
 .guifierEmptyButton:hover {
     background-color: #1d5dffec;
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
-        linear-gradient(var(--primary-color), var(--primary-color));
+        linear-gradient(var(--blue-color), var(--blue-color));
 }
