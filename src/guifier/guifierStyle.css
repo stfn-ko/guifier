@@ -17,11 +17,13 @@
 
 .guifierMainWrapper * {
 	box-sizing: border-box;
+    color: var(--secondary-color);
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .guifierErrorContainer * {
 	box-sizing: border-box;
+    color: var(--secondary-color);
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
