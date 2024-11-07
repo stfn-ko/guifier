@@ -9,9 +9,10 @@
     --primary-border-width: 2px;
     
     --primary-border: var(--primary-border-width) solid var(--primary-color-shade-80);
-    --second-border: 1px solid var(--primary-color-shade-80);
-    --primary-dashed-border: var(--primary-border-width) dashed var(--primary-color-shade-80);
     --primary-selected-border: var(--primary-border-width) solid var(--blue-color-accent);
+    --primary-dashed-border: var(--primary-border-width) dashed var(--primary-color-shade-80);
+
+    --second-border: 1px solid var(--primary-color-shade-80);
 }
 
 .guifierMainWrapper * {
