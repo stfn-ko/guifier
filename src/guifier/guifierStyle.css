@@ -154,7 +154,7 @@
 }
 
 .guifierDescriptionTooltip .descriptionHeader .descriptionFieldType {
-    color: mediumslateblue;
+    color: var(--purple-color);
 }
 
 .guifierDescriptionTooltip .descriptionBody {
