@@ -11,13 +11,15 @@
     --secondary-color: #E2E4E9;
     --secondary-color-accent: #466060; /* unused */
 
-    --red-color: #EB6A47; /* unused */
-    --red-color-accent: #F23E0D; /* unused */
+    --error-text-color: rgb(235, 71, 71);
+    --error-border-color: rgb(242, 13, 13);
+    --error-background-color: rgb(235, 71, 71, 0.1);
+
 
     --blue-color: #47A9EB;
     --blue-color-accent: #0D96F2;
 
-    --purple-color: #9C5EED; /* unused */
+    --purple-color: #9C5EED;
     --purple-color-accent: #700DF2; /* unused */
 
     --green-color: #47EB80; /* unused */
