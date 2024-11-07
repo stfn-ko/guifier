@@ -125,7 +125,7 @@
     bottom: 15px;
     left: 15px;
     width: 100%;
-    background-color: white;
+    background-color: var(--secondary-color);
     opacity: 0;
     height: fit-content;
     font-weight: normal;

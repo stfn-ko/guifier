@@ -74,7 +74,7 @@
     height: 35px;
     width: 35px;
     margin-top: 15px;
-    background-color: white;
+    background-color: var(--secondary-color);
     border: var(--primary-border);
     border-radius: 100%;
     color: var(--secondary-color);

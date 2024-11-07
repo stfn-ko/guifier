@@ -24,7 +24,7 @@
     height: 100%;
     max-width: 450px;
     max-height: 550px;
-    background-color: white;
+    background-color: var(--secondary-color);
     box-shadow: rgb(255, 255, 255) 0px 0px 100px;
     border: var(--primary-border);
     border-radius: var(--primary-border-radius);
@@ -77,7 +77,7 @@
 
 .guifierDialogConfirmButton {
     background-color: var(--blue-color);
-    color: white;
+    color: var(--secondary-color);
 }
 
 .guifierDialogConfirmButton:hover {

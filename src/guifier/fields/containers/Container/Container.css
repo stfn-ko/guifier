@@ -101,7 +101,7 @@
     padding: 5px 10px;
     padding-left: 19px;
     border-radius: var(--primary-border-radius);
-    color: white;
+    color: var(--secondary-color);
     cursor: pointer;
     font-weight: bold;
     font-size: small;

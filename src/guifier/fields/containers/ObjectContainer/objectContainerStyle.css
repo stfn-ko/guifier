@@ -74,7 +74,7 @@
 .fieldButtons > * {
     color: var(--secondary-color);
     border: var(--second-border);
-    /* background-color: white; */
+    /* background-color: var(--secondary-color); */
     padding: 5px;
     border-radius: 100%;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
