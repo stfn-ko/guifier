@@ -3,10 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--primary-color);
+
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 101%;
     height: 100%;
     z-index: 1000;
     transition: 150ms;
@@ -24,8 +25,7 @@
     height: 100%;
     max-width: 450px;
     max-height: 550px;
-    background-color: var(--secondary-color);
-    box-shadow: rgb(255, 255, 255) 0px 0px 100px;
+    background-color: var(--primary-color);
     border: var(--primary-border);
     border-radius: var(--primary-border-radius);
 }
@@ -69,17 +69,21 @@
     border: var(--primary-border);
     background-color: var(--primary-color-accent);
     color: var(--secondary-color);
+    transition: 200ms;
 }
 
 .guifierDialogCancelButton:hover {
-    background-color: #eeeff3;
+    background-color: var(--error-text-color);
+    transition: 200ms;
 }
 
 .guifierDialogConfirmButton {
     background-color: var(--blue-color);
     color: var(--secondary-color);
+    transition: 200ms;
 }
 
 .guifierDialogConfirmButton:hover {
-    background-color: #366fff;
+    background-color: var(--blue-color-accent);
+    transition: 200ms;
 }

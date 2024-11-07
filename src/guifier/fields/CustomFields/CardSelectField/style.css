@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
     border: var(--primary-border);
+    border-color: var(--primary-color-shade-80);
+    background-color: var(--primary-color-accent);
     border-radius: var(--primary-border-radius);
     padding: 15px;
     height: 75px;
@@ -20,13 +22,13 @@
 }
 
 .guifierCard:hover {
-    border-color: rgba(0, 0, 0, 0.25);
-    background-color: rgba(0, 0, 0, 0.025);
+    border-color: var(--primary-color-shade-40);
+    background-color: var(--primary-color);
 }
 
 .cardIconElement .material-icons-outlined {
     font-size: 40px !important;
-    color: rgba(0, 0, 0, 0.75);
+    color: var(--secondary-color);
 }
 
 .guifierSelectedCard {
